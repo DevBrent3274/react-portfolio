@@ -1,7 +1,25 @@
-
+import { useRef } from 'react'
 import './index.scss'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm('gmail', 'template_ck8jhs4', form.current, 'i7gNbbeVUA9lqrmIP')
+      .then(
+        () => {
+          alert('Message successfully sent!')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Failed to send the message, please try again')
+        }
+      )
+  }
 
   return(
     <>
@@ -13,7 +31,7 @@ const Contact = () => {
              form and I will get back to you.  Thanks.
           </p>
           <div className='contact-form'>
-            <form>
+          <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className='conatct-info'>
                   <input type="text" name="name" placeholder="Name" required />
