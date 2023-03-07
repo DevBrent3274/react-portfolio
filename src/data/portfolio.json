@@ -1,20 +1,23 @@
 {
   "portfolio":[
     {
-      "": "/project/weather-app.png",
+      "introPage": "/project/weather-app.png",
       "title": "Weather App",
+      "tech": "Add stack",
       "link": "https://devbrent3274.github.io/weather-app/"
     },
 
     {
       "introPage": "/project/Asteroids.png",
       "title": "Asteroids",
+      "tech": "Add stack",
       "link": "https://asteroids.herokuapp.com/"
     },
 
     {
       "introPage": "/project/shirt.png",
       "title": "Music Web App",
+      "tech": "Add stack",
       "link": "https://zachshouts.github.io/music-web-app/"
     }
 

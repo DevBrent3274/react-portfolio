@@ -27,7 +27,7 @@ const About = () =>{
             from you!
           </p>
 
-          {/*Work on logo and or phot next!*/} 
+          {/*Work on logo and or photo next!*/} 
           
         </div>
      
