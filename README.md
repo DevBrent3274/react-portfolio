@@ -5,7 +5,7 @@
 This apllication was built in react as a portfolio for myself.  
 
 ## Deployed 
-[Click here for deployed application](https://###/)
+[Click here for deployed application](https://devbrent3274.github.io/react-portfolio/)
 
 ## Installation
 
