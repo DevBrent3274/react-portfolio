@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // Importing standard icons for menu bar
 import {faLinkedin,faGithub,} from '@fortawesome/free-brands-svg-icons'
-import {faHome,faUser,faEnvelope,faSuitcase,faBars,faClose,} from '@fortawesome/free-solid-svg-icons'
+import {faHome,faUser,faEnvelope,faSuitcase,faBars,faFile} from '@fortawesome/free-solid-svg-icons'
 
 // NavLink allows us to highligt a link as active
 import { NavLink } from 'react-router-dom'
@@ -34,24 +34,24 @@ const Navbar = () => {
           activeclassname="active"
           className="portfolio-link"
           to="/portfolio"
-          onClick={() => setShowNav(false)}
-        >
+          onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
         <NavLink
           activeclassname="active"
           className="contact-link"
           to="/contact"
-          onClick={() => setShowNav(false)}
-        >
+          onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <FontAwesomeIcon 
-          onClick={() => setShowNav(false)}
-          icon={faClose}
-          color="#ffd700"
-          size="3x"
-          className='close-icon' />
+        <NavLink
+          activeclassname="active"
+          className="resume-link"
+          to="/resume"
+          onClick={() => setShowNav(false)}>
+          <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
+        </NavLink>
+
       </nav>
       <ul>
         <li>

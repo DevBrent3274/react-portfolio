@@ -46,6 +46,7 @@
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
+    border-radius: 10px;
   }
 
   h1 {
@@ -81,5 +82,11 @@
     float: right;
     text-align: center;
     margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background: #ffd700;
+    color: #444;
   }
 }

@@ -1,7 +1,7 @@
-
+import React from 'react'
 import { Link } from 'react-router-dom';
 
-
+import profilePic from './brent-johnson.jpg'
 import './index.scss';
 
 const Home = () => {
@@ -11,6 +11,12 @@ const Home = () => {
     <>
       <div className="container home-page">
         <div className="text-area">
+        <img src={profilePic}
+            style={{left:"%", float:"right", margin:"10px", width:"320px", height:"320px", border:"none", borderRadius:"50%"}}
+            alt="myPic"
+  title="Brent Johnson Photo" />
+
+
           <h1>Hi, <br /> I'm Brent
           <br/>
           Fullstack Web Developer </h1>
