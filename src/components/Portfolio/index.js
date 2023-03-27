@@ -6,6 +6,7 @@ import React from 'react';
 import asteroids from "../../project/Asteroids.gif"
 import weatherapp from "../../project/weather-app.png"
 import musicapp from "../../project/shirt.png"
+// import bikecommerce from "../../project/Biketastic.png"
 
 const images = {
   asteroids, weatherapp, musicapp

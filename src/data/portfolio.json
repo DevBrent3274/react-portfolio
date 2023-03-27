@@ -3,21 +3,21 @@
     {
       "introPage": "weatherapp",
       "title": "Weather App",
-      "tech": "Add stack description here..",
+      "tech": "JavaScript, Bootstrap, HTML, CSS, REST API ",
       "link": "https://devbrent3274.github.io/weather-app/"
     },
 
     {
       "introPage": "asteroids",
       "title": "Asteroids",
-      "tech": "Add stack description here..",
+      "tech": "Node, Express, Axios, MySql2, Sequelize, Handlebars ",
       "link": "https://asteroids.herokuapp.com/"
     },
 
     {
       "introPage": "musicapp",
       "title": "Music Web App",
-      "tech": "Add stack description here..",
+      "tech": "JavaScript, jQuery, REST API, Glide.js",
       "link": "https://zachshouts.github.io/music-web-app/"
     }
 
